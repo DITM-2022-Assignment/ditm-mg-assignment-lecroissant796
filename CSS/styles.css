@@ -61,21 +61,6 @@ body{
     font-weight: bold;
 }
 
-.profile-container{
-    flex: 2;
-    display: flex;
-    align-items: center;
-}
-
-.profile-text-container{
-    font-weight: bold;
-    margin-left: 10px;
-}
-
-.profile-picture{
-    width: 26px;
-    height: 26px;
-}
 
 
 
@@ -141,5 +126,68 @@ body{
     border-radius: 30px;
     font-weight: bold;
     
+}
+
+.anime-list-container{
+    padding: 20px;
+
+}
+
+.anime-list{
+    padding-top: 30px;
+}
+
+
+.anime-list-item{
+    display: flex;
+    align-items: grid;
+    margin-left: 30px;
+    position: relative;
+    
+}
+
+
+.anime-list-item-image{
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    transition: all 0.6s ease-out;
+}
+
+.anime-list-item-image:hover{
+    transform: scale(1.2);
+    margin: 0 25px;
+}
+
+
+.anime-list-container-2{
+    padding-top: 15px;
+
+}
+
+.anime-list-2{
+    padding-top: 30px;
+}
+
+
+.anime-list-item-2{
+    display: flex;
+    align-items: grid;
+    margin-left: 30px;
+    position: relative;
+    
+}
+
+
+.anime-list-item-image-2{
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    transition: all 0.6s ease-out;
+}
+
+.anime-list-item-image-2:hover{
+    transform: scale(1.2);
+    margin: 0 25px;
 }
 
