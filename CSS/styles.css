@@ -51,15 +51,25 @@ body{
 }
 
 .menu-list-item{
-    margin-right: 30px;
-    color: black;
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 66px;
+    color: #c59a73;
     text-decoration: none;
     
+}
+
+.menu-list-item:hover{
+    color: #151515;
+
 }
 
 .menu-list-item.active{
     font-weight: bold;
 }
+
+
 
 
 
@@ -80,6 +90,10 @@ body{
     font-size: 25px;
     margin-bottom: 55px;
     color: black;
+}
+
+.left-menu-icon:hover{
+    color: #c59a73;
 }
 
 
@@ -191,3 +205,41 @@ body{
     margin: 0 25px;
 }
 
+.second-feature-content{
+    height: 60vh;
+    
+}
+
+
+.howls-moving-castle{
+    width: 210px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+    
+}
+
+.desc{
+    width: 500px;
+    color: rgb(197, 184, 171);
+    margin-left: 50px;
+    margin-top: 28px;
+    font-size: 17px;
+    font-family: 'Sen', sans-serif;
+
+}
+
+.featured-button{
+    background-color: #665217;  
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 120;
+    height: 30;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+
+
+ 
+ 
